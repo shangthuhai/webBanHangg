@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Icon-->
+  <link rel="icon" href="Logo.png" type="image/x-icon">
+  <!-- Project Title -->
+  <title>Snowell Electric</title>
+  <!--StyleSheets-->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+  <!--Cdn link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+</head>
+<!--Body Section-->
+<body class="body-main">
+  <div class="ticker">
+    <marquee behavior="" direction="" scrollamount="10"><div class="ticker-content" id="tickerContent"></div></marquee>
+  </div>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary p-0">
+    <div class="container-fluid">
+      <!--Navbar Logo-->
+      <a class="navbar-brand ps-4" href="#"><img src="Logo.png" width="160px" alt=""></a>
+      <!--Navbar Collapse-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon icon1"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <!--Navbar Content-->
+        <ul class="navbar-nav ms-auto  text-center  ">
+          <!-- Link 1 -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+           <!-- Link 2 -->
+          <li class="nav-item">
+            <a class="nav-link" href="#products">Products</a>
+          </li>
+           <!-- Link 3 -->
+          <li class="nav-item">
+            <a class="nav-link" href="#map">Shop Location</a>
+          </li>
+           <!-- Link 4 -->
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </li>
+          <p class="linee"><sub>|</sub></p>
+          <!-- Visitor Count-->
+          <li class="nav-item text-center">
+           <a href="" class="d-flex rounded visitc"> <i class="fa-solid fa-user fw-lg"></i><p class="counter" id="visitor-count"></p></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Navbar End-->
+  <!--Hero Section-->
+  <div class="Hero" id="Hero">
+    <!--carousel-->
+    <div id="carousel" class="carousel slide">
+      <!--Carousel indicators-->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <!--Carousel Images-->
+      <div class="carousel-inner">
+        <!--Carousel image 1-->
+        <div class="carousel-item active">
+          <img src="images/imageedit_2_9171098052.png" class="w-100"  alt="...">
+        </div>
+         <!--Carousel image 2-->
+        <div class="carousel-item">
+          <img src="images/ChatGPT Image Apr 15, 2025, 04_10_25 PM.png" class="d-block w-100" alt="...">
+        </div>
+         <!--Carousel image 3-->
+        <div class="carousel-item">
+          <img src="images/174470904591623397.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <!--Carousel Buttons-->
+      <!--Previous Button-->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <!--Next Button-->
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </div>
+    <!--Hero End-->
+    <!--About Section-->
+    <div class="Snowell-about">
+      <div class="cont justify-items-center">
+        <!--About Text-->
+        <div class="abt  text-center fw-bold pt-4 ">
+      <p>At Snowell Electronic we are determined to continuously enrich the lives of our valued customers
+        by providing technologically advanced consumer electronics. Our products are aimed to enhance lifestyles of our customers
+        and bringing maximum comfort and convenience into their lives.</p>
+    </div>
+   </div>
+   <!--About End-->
+   <!--Horizontal Line-->
+    <hr>
+    <!--Offers Heading-->
+    <h1 class="Offers p-5" id="offers">We Offer</h1>
+    <!--Main Content -->
+    <div class="cont-main p-5 container" >
+      <div class="cards-about container text-center g-5  ">
+        <!--Container Cards-->
+        <div class="row gap-3 ">
+          <!--Card 1-->
+        <div class="card1 col p-3 " id="card-info"><img src="Assets/Images/Reliable.png" style="width: 50px;" alt=""><h4>Reliability</h4>
+        <p>we prioritize delivering consistent, uninterrupted power to meet your needs every day.</p>
+        </div>
+        <!--Card 2-->
+        <div class="card2 col p-3"   id="card-info"> <img src="Assets/Images/Support.png"  style="width: 50px;" alt=""><h4>Excellent Customer Support </h4>
+        <p>customer support team is here to provide prompt, friendly, and expert assistance whenever you need it.</p>
+        </div>
+        <!--Card 3-->
+        <div class="card3 col p-3"  id="card-info"><img src="Assets/Images/envir.jpg"  style="width: 50px;" alt=""><h4>Environmental Awareness</h4>
+        <p>we strive to reduce our carbon footprint and support a greener future for all.</p>
+        </div>
+      </div>
+      </div>
+    </div>
+    <!--Main Content End-->
+    <!--Horizontal Line-->
+    <hr>
+    <!--Products Container-->
+<div class="products text-center" id=  "products">
+  <!--Products Heading-->
+<div class="prod p-5"><h1>
+        <h1 class="Prods">Products</h1>
+</div>
+<!-- Nav tabs -->
+ <div class="nav-tabs-main">
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" data-bs-toggle="tab" href="#home">All</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="tab" href="#menu1">Air Conditioners</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="tab" href="#menu2">Fans</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="tab" href="#menu3">Geysers</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="tab" href="#menu4">CFLs</a>
+  </li>
+</ul>
+</div>
+<!-- Tab panes -->
+<div class="tab-content">
+              <!--All Products-->
+  <div class="tab-pane container  active" id="home">
+    <div class="card-head-main">
+      <!--Ac 1-->
+      <div class="card" style="width: 18rem;">
+      <img src="images/Ac1.jpg" class="card-img" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">LG 12.300 BTU</h5>
+        <p class="card-text">11,190,000 VND</p>
+        <a href="Assets/Product Docs/Ultron_DIVINE_eComfort_Specifications.docx" class="btn btn-primary">Detailed View</a>
+      </div>
+      </div>
+      <!--Ac 2-->
+      <div class="card" style="width: 18rem;">
+        <img src="images/Ac2.jpg" class="card-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Samsung 9.000 BTU</h5>
+          <p class="card-text">7,500,000 VND</p>
+          <a href="Assets/Product Docs/Smartron_Pro_Ultra_Black_Specifications.docx" class="btn btn-primary">Detailed View</a>
+        </div>
+    </div>
+      <!--Ac 3-->
+    <div class="card" style="width: 18rem;">
+      <img src="images/Ac3.jpg" class="card-img" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Panasonic 9.550 BTU</h5>
+       
+        <p class="card-text">14,000,000 VND</p>
+        <a href="Assets/Product Docs/Solar_Hybrid1_AC_Features.docx" class="btn btn-primary">Detailed View</a>
+      </div>
+  </div>
+      <!--Ac 4-->
+    <div class="card" style="width: 18rem;">
+    <img src="images/Ac4.jpg" class="card-img" alt="...">
+    <div class="card-body">
+   
+      <h5 class="card-title">Sharp 9.000 BTU</h5>
+      <p class="card-text">7,800,000 VND</p>
+      <a href="Assets/Product Docs/Mega_T_Plus_AC_Specifications.docx" class="btn btn-primary">Detailed View</a>
+    </div>
+  </div>
+
+      <!--Fan 1-->
+      <div class="card" style="width: 18rem;">
+        <img src="images/Fan1.jpg" class="card-img" alt="...">
+        <div class="card-body">
+       
+          <h5 class="card-title">Vinawind QT-1500X ceiling fan</h5>
+          <p class="card-text">1,500,000 VND</p>
+          <a href="Assets/Product Docs/Royal_Deluxe_Ceiling_Fan_Specifications.docx" class="btn btn-primary">Detailed View</a>
+        </div>
+      </div>
+      <!--Fan 2-->
+      <div class="card" style="width: 18rem;">
+        <img src="images/Fan2.jpg" class="card-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Vinawind QB-300 I table fan</h5>
+          <p class="card-text">350,000 VND</p>
+          <a href="Assets/Product Docs/Royal_Petite_Bracket_Fan_Specifications.docx" class="btn btn-primary">Detailed View</a>
+        </div>
+      </div>
+      <!--Fan 3-->
+      <div class="card" style="width: 18rem;">
+        <img src="images/Fan3.jpg" class="card-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Vinawind QH-300LP box fan</h5>
+          <p class="card-text">400,000 VND</p>
+          <a href="Assets/Product Docs/Royal_Mystic_Mist_Fan_Specifications.docx" class="btn btn-primary">Detailed View</a>
+        </div>
+      </div>
+      <!--Fan 4-->
+      <div class="card" style="width: 18rem;">
+        <img src="images/Fan4.jpg" class="card-img" alt="...">
+        <div class="card-body">
+       
+          <h5 class="card-title">Vinawind QD-400XPN standing fan</h5>
+          <p class="card-text">900,000 VND</p>
+          <a href="Assets/Product Docs/RL-040_Smart_Lifestyle_ACDC_Fan_Specifications.docx" class="btn btn-primary">Detailed View</a>
+        </div>
+      </div>
+    
+        <!--Geysers 1-->
+        <div class="card" style="width: 18rem;">
+          <img src="images/Geyser1.jpg" class="card-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Geyser Ecotar 9 Slim</h5>
+            <p class="card-text">15,000,000 VND</p>
+            <a href="Assets/Product Docs/GF-712EL_Electric_Geyser_Specifications.docx" class="btn btn-primary">Detailed View</a>
+          </div>
+        </div>
+        <!--Geysers  2-->
+        <div class="card" style="width: 18rem;">
+          <img src="images/Geyser2.png" class="card-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Geyser Ecotar 9 Nano</h5>
+            <p class="card-text">15,000,000 VND</p>
+            <a href="Assets/Product Docs/GF-712EL_Electric_Geyser_Specifications.docx" class="btn btn-primary">Detailed View</a>
+          </div>
+        </div>
+        <!--Geysers 3-->
+        <div class="card" style="width: 18rem;">
+          <img src="images/Geyser3.jpg" class="card-img" alt="...">
+          <div class="card-body">
+         
+            <h5 class="card-title">Geyser Ecotar 2 Nano</h5>
+            <p class="card-text">4,000,000 VND</p>
+            <a href="Assets/Product Docs/GF-955_Gas_Geyser_Specifications.docx" class="btn btn-primary">Detailed View</a>
+          </div>
+        </div>
+        <!--Geysers 4-->
+        <div class="card" style="width: 18rem;">
+          <img src="images/Geyser4.jpg" class="card-img" alt="...">
+          <div class="card-body">
+         
+            <h5 class="card-title">GF-40EL Electric Geyser</h5>
+            <p class="card-text">7,000,000 VND</p>
+            <a href="Assets/Product Docs/GF-40EL_Electric_Geyser_Specifications.docx" class="btn btn-primary">Detailed View</a>
+          </div>
+        </div>
+        
+  
+          <!--CFL 1-->
+          <div class="card" style="width: 18rem;">
+          <img src="images/Cfl1.jpg" class="card-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Rang Dong 14W TR70N1</h5>
+            <p class="card-text">77,000 VND</p>
+            <a href="Assets/Product Docs/Westinghouse_Incandescent_Light_Bulb_Specifications.docx" class="btn btn-primary">Detailed View</a>
+          </div>
+          </div>
+          <!--CFL 2-->
+          <div class="card" style="width: 18rem;">
+            <img src="images/Cfl2.jpg" class="card-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rang Dong TR70N1 12VDC </h5>
+              <p class="card-text">69,000 VND</p>
+              <a href="Assets/Product Docs/Westinghouse_Incandescent_Light_Bulb_Yellow_Specifications.docx" class="btn btn-primary">Detailed View</a>
+            </div>
+        </div>
+        <!--CFL 3-->
+        <div class="card" style="width: 18rem;">
+          <img src="images/Cfl3.jpg" class="card-img" alt="...">
+          <div class="card-body">
+         
+            <h5 class="card-title">Rang Dong 7W LED DL </h5>
+            <p class="card-text">70,000 VND</p>
+            <a href="Assets/Product Docs/GF-955_Gas_Geyser_Specifications.docx" class="btn btn-primary">Detailed View</a>
+          </div>
+        </div>
+      
+      <!--cfl 4-->
+      <div class="card" style="width: 18rem;">
+        <img src="images/Cfl4.jpg" class="card-img" alt="...">
+        <div class="card-body">
+       
+          <h5 class="card-title">Rang Dong LN12 70 </h5>
+          <p class="card-text">72,000 VND</p>
+          <a href="Assets/Product Docs/Neptun_Compact_Fluorescent_Light_Bulb_Specifications.docx" class="btn btn-primary">Detailed View</a>
+        </div>
+      </div>
+      
+  </div>
+  </div>
+  
+                            <!--Air Conditioners-->
+  <div class="tab-pane container fade" id="menu1">
+    <div class="prodlist">
+      <a href="Assets/Product Docs/Product_Names_and_Pricesac.docx">Click To Download Air Conditioners List</a>
+    </div>
+    <div class="card-head-main">
+      <!--Ac 1-->
+      <div class="card" style="width: 18rem;">
+        <img src="images/Ac1.jpg" class="card-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">LG 12.300 BTU</h5>
+          <p class="card-text">11,190,000 VND</p>
+          <a href="Assets/Product Docs/Ultron_DIVINE_eComfort_Specifications.docx" class="btn btn-primary">Detailed View</a>
+        </div>
+        </div>
+        <!--Ac 2-->
+        <div class="card" style="width: 18rem;">
+          <img src="images/Ac2.jpg" class="card-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Samsung 9.000 BTU</h5>
+            <p class="card-text">7,500,000 VND</p>
+            <a href="Assets/Product Docs/Smartron_Pro_Ultra_Black_Specifications.docx" class="btn btn-primary">Detailed View</a>
+          </div>
+      </div>
+        <!--Ac 3-->
+      <div class="card" style="width: 18rem;">
+        <img src="images/Ac3.jpg" class="card-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Panasonic 9.550 BTU</h5>
+         
+          <p class="card-text">14,000,000 VND</p>
+          <a href="Assets/Product Docs/Solar_Hybrid1_AC_Features.docx" class="btn btn-primary">Detailed View</a>
+        </div>
+    </div>
+        <!--Ac 4-->
+      <div class="card" style="width: 18rem;">
+      <img src="images/Ac4.jpg" class="card-img" alt="...">
+      <div class="card-body">
+     
+        <h5 class="card-title">Sharp 9.000 BTU</h5>
+        <p class="card-text">7,800,000 VND</p>
+        <a href="Assets/Product Docs/Mega_T_Plus_AC_Specifications.docx" class="btn btn-primary">Detailed View</a>
+      </div>
+    </div>
+  </div>
+  </div>
+                                      <!--Fans-->
+  <div class="tab-pane container fade" id="menu2">
+    <div class="prodlist">
+      <a href="Assets/Product Docs/Latest_Product_Names_and_Pricesfans.docx">Click To Download Fans List</a>
+    </div>
+    <div class="card-head-main">
+    <!--Fan 1-->
+    <div class="card" style="width: 18rem;">
+      <img src="images/Fan1.jpg" class="card-img" alt="...">
+      <div class="card-body">
+     
+        <h5 class="card-title">Vinawind QT-1500X ceiling fan</h5>
+        <p class="card-text">1,500,000 VND</p>
+        <a href="Assets/Product Docs/Royal_Deluxe_Ceiling_Fan_Specifications.docx" class="btn btn-primary">Detailed View</a>
+      </div>
+    </div>
+    <!--Fan 2-->
+    <div class="card" style="width: 18rem;">
+      <img src="images/Fan2.jpg" class="card-img" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Vinawind QB-300 I table fan</h5>
+        <p class="card-text">350,000 VND</p>
+        <a href="Assets/Product Docs/Royal_Petite_Bracket_Fan_Specifications.docx" class="btn btn-primary">Detailed View</a>
+      </div>
+    </div>
+    <!--Fan 3-->
+    <div class="card" style="width: 18rem;">
+      <img src="images/Fan3.jpg" class="card-img" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Vinawind QH-300LP box fan</h5>
+        <p class="card-text">400,000 VND</p>
+        <a href="Assets/Product Docs/Royal_Mystic_Mist_Fan_Specifications.docx" class="btn btn-primary">Detailed View</a>
+      </div>
+    </div>
+    <!--Fan 4-->
+    <div class="card" style="width: 18rem;">
+      <img src="images/Fan4.jpg" class="card-img" alt="...">
+      <div class="card-body">
+     
+        <h5 class="card-title">Vinawind QD-400XPN standing fan</h5>
+        <p class="card-text">900,000 VND</p>
+        <a href="Assets/Product Docs/RL-040_Smart_Lifestyle_ACDC_Fan_Specifications.docx" class="btn btn-primary">Detailed View</a>
+      </div>
+    </div>
+    
+    </div>
+  </div>
+                   <!--Geysers-->
+  <div class="tab-pane container fade" id="menu3">
+    <div class="prodlist">
+      <a href="Assets/Product Docs/Geyser_Product_Names_and_Prices.docx">Click To Download Geysers List</a>
+    </div>
+    <div class="card-head-main">
+      <!--Geysers 1-->
+      <div class="card" style="width: 18rem;">
+        <img src="images/Geyser1.jpg" class="card-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Geyser Ecotar 9 Slim</h5>
+          <p class="card-text">15,000,000 VND</p>
+          <a href="Assets/Product Docs/GF-712EL_Electric_Geyser_Specifications.docx" class="btn btn-primary">Detailed View</a>
+        </div>
+      </div>
+      <!--Geysers  2-->
+      <div class="card" style="width: 18rem;">
+        <img src="images/Geyser2.png" class="card-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Geyser Ecotar 9 Nano</h5>
+          <p class="card-text">15,000,000 VND</p>
+          <a href="Assets/Product Docs/GF-712EL_Electric_Geyser_Specifications.docx" class="btn btn-primary">Detailed View</a>
+        </div>
+      </div>
+      <!--Geysers 3-->
+      <div class="card" style="width: 18rem;">
+        <img src="images/Geyser3.jpg" class="card-img" alt="...">
+        <div class="card-body">
+       
+          <h5 class="card-title">Geyser Ecotar 2 Nano</h5>
+          <p class="card-text">4,000,000 VND</p>
+          <a href="Assets/Product Docs/GF-955_Gas_Geyser_Specifications.docx" class="btn btn-primary">Detailed View</a>
+        </div>
+      </div>
+      <!--Geysers 4-->
+      <div class="card" style="width: 18rem;">
+        <img src="images/Geyser4.jpg" class="card-img" alt="...">
+        <div class="card-body">
+       
+          <h5 class="card-title">GF-40EL Electric Geyser</h5>
+          <p class="card-text">7,000,000 VND</p>
+          <a href="Assets/Product Docs/GF-40EL_Electric_Geyser_Specifications.docx" class="btn btn-primary">Detailed View</a>
+        </div>
+      </div>
+      </div>
+    </div>
+                         <!--CFLs-->
+  <div class="tab-pane container fade" id="menu4">
+    <div class="prodlist">
+      <a href="Assets/Product Docs/Light_Bulb_Products.docx">Click To Download Cfls List</a>
+    </div>
+    <div class="card-head-main">
+       <!--CFL 1-->
+       <div class="card" style="width: 18rem;">
+        <img src="images/Cfl1.jpg" class="card-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Rang Dong 14W TR70N1</h5>
+          <p class="card-text">77,000 VND</p>
+          <a href="Assets/Product Docs/Westinghouse_Incandescent_Light_Bulb_Specifications.docx" class="btn btn-primary">Detailed View</a>
+        </div>
+        </div>
+        <!--CFL 2-->
+        <div class="card" style="width: 18rem;">
+          <img src="images/Cfl2.jpg" class="card-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Rang Dong TR70N1 12VDC </h5>
+            <p class="card-text">69,000 VND</p>
+            <a href="Assets/Product Docs/Westinghouse_Incandescent_Light_Bulb_Yellow_Specifications.docx" class="btn btn-primary">Detailed View</a>
+          </div>
+      </div>
+      <!--CFL 3-->
+      <div class="card" style="width: 18rem;">
+        <img src="images/Cfl3.jpg" class="card-img" alt="...">
+        <div class="card-body">
+       
+          <h5 class="card-title">Rang Dong 7W LED DL </h5>
+          <p class="card-text">70,000 VND</p>
+          <a href="Assets/Product Docs/GF-955_Gas_Geyser_Specifications.docx" class="btn btn-primary">Detailed View</a>
+        </div>
+      </div>
+    
+    <!--cfl 4-->
+    <div class="card" style="width: 18rem;">
+      <img src="images/Cfl4.jpg" class="card-img" alt="...">
+      <div class="card-body">
+     
+        <h5 class="card-title">Rang Dong LN12 70 </h5>
+        <p class="card-text">72,000 VND</p>
+        <a href="Assets/Product Docs/Neptun_Compact_Fluorescent_Light_Bulb_Specifications.docx" class="btn btn-primary">Detailed View</a>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+<!--Horizontal line-->
+<hr>
+<div class="prod pt-5"><h1>
+  <h1 class="Prods">Contact Us</h1>
+</div>
+<!--Contact Heading -->
+<!-- Contact -->
+<div class="main" id="contact">
+  <div class="container main2">
+      <div class="form">
+         
+          <p>Feel free to reach out for any inquiries or feedback. We are here to help!</p>
+          <div class="inputs">
+              <input type="text" placeholder="Your Name" required>
+              <input type="email" placeholder="Your Email" required>
+              <textarea placeholder="Your Message" required></textarea>
+              <button type="submit">Send Message</button>
+          </div>
+          <div class="social-media-links">
+              <a class="social-icon-link" href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a class="social-icon-link" href="#">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a class="social-icon-link" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">
+                <i class="fa-brands fa-google"></i>
+              </a>
+              <a class="social-icon-link" href="#">
+                <i class="fa-brands  fa-instagram"></i>
+              </a>
+            </div>
+      </div>
+      <!--Map-->
+      <div class="map" id="map">
+        <div class="mapouter container-fluid">
+          <div class="gmap_canvas">
+            <iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+              src="https://maps.google.com/maps?width=612&amp;height=400&amp;hl=vi&amp;q=285 Đội Cấn, Ba Đình&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+            </iframe>
+          </div>
+          <style>
+            .mapouter {
+              position: relative;
+              text-align: right;
+              width: 100%;
+              height: 400px;
+            }
+      
+            .gmap_canvas {
+              overflow: hidden;
+              background: none !important;
+              width: 100%;
+              height: 400px;
+            }
+      
+            .gmap_iframe {
+              height: 400px !important;
+            }
+          </style>
+        </div>
+      </div>
+      
+  </div>
+</div>
+  <!-- Footer -->
+  <footer
+          class="foot text-center p-5 text-lg-start text-white"
+          style="background-color: #1c2331"
+
+          >
+
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class=" text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold"><img src="Assets/Images/Logo-white.png" width="150px" alt=""></h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Products</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#products" class="text-white">Air Conditioners</a>
+            </p>
+            <p>
+              <a href="#products" class="text-white">Geysers</a>
+            </p>
+            <p>
+              <a href="#products" class="text-white">Cfls</a>
+            </p>
+            <p>
+              <a href="#products" class="text-white">Fans</a>
+            </p>
+          </div>
+   
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Useful links</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#Hero" class="text-white">Home</a>
+            </p>
+            <p>
+              <a href="#offers" class="text-white">About</a>
+            </p>
+            <p>
+              <a href="#contact" class="text-white">Shop Location</a>
+            </p>
+            <p>
+              <a href="#contact" class="text-white">Contact</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p><i class="fas fa-home mr-3"></i>Lahore , Pakistan</p>
+            <p ><i class="fas fa-envelope mr-3"></i><a href="mailto:muhammadomer.shazad@hotmail.com"> Support@gmail.com</a></p>
+            <p><i class="fas fa-print mr-3"></i> <a href="tel:+923267411115"> + 92-3267411115</a></p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3">
+      ©2024 Copyright:
+      <a class="text-white" href="#index.html"
+         >Snowell Electrics</a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+ 
+  
+<script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+  <script src="Bootstrap/js/bootstrap.min.js"></script>
+  <script src="Javascript/js.js"></script>
+ 
+</body>
+</html>
